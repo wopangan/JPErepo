@@ -53,7 +53,7 @@ console.log(`User category: ${userCategory}`)
 
 // Using ternary operator
 
-let isAuthenticated = false;
+let isAuthenticated = false; // if true -> "Authenticated", if false -> "Not authenticated";
 
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 

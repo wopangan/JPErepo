@@ -20,3 +20,11 @@ function displayCount() {
     document.getElementById('countDisplay').innerHTML = count;
 }
 
+// Practice task - add a reset button
+
+function resetCount() {
+    count = 0;
+    document.getElementById('countDisplay').innerHTML = 0;
+    alert("Your followers count has been reset.");
+}
+
